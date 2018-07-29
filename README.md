@@ -19,11 +19,11 @@ Indentation of program statements is critical to the readability of code. Python
 The Following steps were taken: 
  
  
-# 1)Preprocessing 
+ 1)Preprocessing 
  
 ❏ The python code was preprocessed by first removing the EOL(End Of Line ‘\n’) ❏ Then  each line of the code was read into a python list. 
  
-# 2)Error Checking 
+ 2)Error Checking 
 ❏ Then for each element in a list: 
 ❏ Checking was done to see whether there are any keywords that had a possibility of indentation. 
 ❏ If any indentation isn’t matching , then error was thrown. 
@@ -33,11 +33,11 @@ The Following steps were taken:
 ❏ Scope is incremented for each level of indentation. 
  
  
-# 3) Output 
+ 3) Output 
 ❏ Once error is detected , corresponding Line Number is printed to indicate indentation error at that line. 
  
  
-# Test Cases :  
+ Test Cases :  
  
 The error checking was tested for various cases, which include  
 1.	if 
@@ -280,11 +280,12 @@ https://docs.python.org/2.0/ref/indentation.html
 
 
 
-============
+========
 Input
 
+
 Please change the input file to be executed in the code (indent.py)
-===========
+=======
 
 ===========
 Execution
